@@ -1,0 +1,28 @@
+.th {
+    padding: 0;
+}
+
+.control {
+    width: 100%;
+    padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+}
+
+
+@media (min-width: 992px) {
+    .th:hover {
+        background-color: var(--mantine-color-gray-7);
+    }
+
+}
+
+@media (max-width: 767px) {
+    .control {
+        padding: 5px 8px;
+    }
+
+    .rows {
+        td {
+            padding: 8px;
+        }
+    }
+}

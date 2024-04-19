@@ -1,0 +1,17 @@
+body {
+    background-color: #242424;
+    color: white;
+}
+
+.authForm {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+@media (max-width: 767px) {
+    .authForm {
+        height: 100%;
+    }
+}
